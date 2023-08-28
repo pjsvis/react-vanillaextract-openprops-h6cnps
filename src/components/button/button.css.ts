@@ -18,6 +18,19 @@ export const styles = style({
     vars: {
       [accentVar]: OP.indigo8,
       [onAccent]: 'white',
+      transform: 'matrix(0.97, 0, 0, 0.97, 0, 0)',
     },
   },
+  cursor: 'pointer',
+  ":hover": {
+    backgroundColor: OP.indigo7,
+  },
+
 });
+
+
+/*
+button:active {
+  transform: matrix(0.97, 0, 0, 0.97, 0, 0);
+}
+*/
